@@ -15,6 +15,8 @@ Dicho esto, mi recomendación es que utilices las tarjetas como base y conserves
 
 # ¿Cómo puedo utilizarlo?
 
-Cada archivo apkg puede importarse en Anki para estudiar el contenido de la asignatura. Para poder generar las fórmulas necesitas tener instalado LaTeX junto con el paquete [dvipng](https://en.wikipedia.org/wiki/Dvipng).
+Cada archivo apkg puede importarse en Anki para estudiar el contenido de la asignatura. 
 
-Algunos de los mazos pueden tener información de programación que deberás borrar manualmente mediante las opciones de Anki.
+Para poder generar las fórmulas necesitas tener instalado LaTeX junto con el paquete [dvipng](https://en.wikipedia.org/wiki/Dvipng). Puedes actualizar para utilizar MathJax sin más que buscar y sustituir los delimitadores (ver #5).
+
+Algunos de los mazos pueden tener información de programación que deberás borrar manualmente mediante las opciones de Anki (si puedes, haz un PR para actualizarlo en este repo también (y menciónalo en #4)).
