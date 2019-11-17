@@ -15,6 +15,25 @@ Dicho esto, mi recomendación es que utilices las tarjetas como base y conserves
 
 # ¿Cómo puedo utilizarlo?
 
-Cada archivo apkg puede importarse en Anki para estudiar el contenido de la asignatura. Para poder generar las fórmulas necesitas tener instalado LaTeX junto con el paquete [dvipng](https://en.wikipedia.org/wiki/Dvipng).
+## Formato antiguo (`.apkg`)
+
+Los mazos originales están en `.apkg`.
+
+Cada archivo `apkg` puede importarse en Anki para estudiar el contenido de la asignatura. Para poder generar las fórmulas necesitas tener instalado LaTeX junto con el paquete [dvipng](https://en.wikipedia.org/wiki/Dvipng).
 
 Algunos de los mazos pueden tener información de programación que deberás borrar manualmente mediante las opciones de Anki.
+
+Puedes actualizar el formato siguiendo las instrucciones de [#6](https://github.com/mx-psi/anki/pull/6).
+¡Recuerda hacer un PR para evitar que los demás tengan que hacerlo también!
+
+## Formato nuevo (.json)
+
+El nuevo formato está en `.json` e incluye las fórmulas con MathJax.
+Para este formato necesitas tener instalado:
+
+- Anki 2.1 y
+- el plugin [CrowdAnki](https://github.com/mx-psi/anki/pull/6).
+
+Importa con la opción de CrowdAnki **la carpeta** asociada a un mazo.
+
+
